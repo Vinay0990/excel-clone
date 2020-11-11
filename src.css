@@ -1,0 +1,36 @@
+.myrow {
+  background-color: #eee;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid #ddd;
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}
+
+.cell-data {
+  margin: 1px;
+  padding: 1px;
+}
+
+.head-main-data,
+.row-main-data {
+  margin: 5px;
+  padding: 5px;
+}
+
+.head-main-data {
+  background-color: blue;
+}
+
+.row-main-data {
+  background-color: aqua;
+  width: 50px;
+}
+
+.highlight {
+  border: 1px solid;
+  background-color: #afffdf;
+  color: #d0ee7d;
+}
+
+.icon-margin {
+  margin-left: 20px;
+}

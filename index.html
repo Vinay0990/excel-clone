@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Excel Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./src.css" />
+  </head>
+  <body>
+    <div>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <input
+              id="rowCount"
+              type="text"
+              class="form-control"
+              placeholder="Row count"
+            />
+          </li>
+          <li class="nav-item">
+            <input
+              id="colCount"
+              type="text"
+              class="form-control"
+              placeholder="Column count"
+            />
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-light" id="new">New</button>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-light" id="addRow">Add Row</button>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-light" id="addCol">Add Col</button>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-light" id="export">Export</button>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-light" id="exit">Exit</button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div id="myDynamicTable"></div>
+
+    <script src="./src.js"></script>
+  </body>
+</html>
